@@ -70,6 +70,25 @@ Este concepto de DTO además de usarlo en controllers también lo uso en service
 
 **interfaces**: Nos ayuda a crear nuestros propios tipos de datos para ayudarle a TypeScript a resaltar el código.
 
+**Que es TypeORM**:
+TypeORM es un ORM(Object-Relational-Mapper)para Node.js escrito en TypeScript. Su propósito es facilitar la interacción con bases de datos relacionales desde aplicaciones escritas en JavaScript o TypeScript.
+
+Principales características de TypeORM:
+
+*Mapeo de clases a tablas: Te permite definir entidades como clases en TypeScript o JavaScript, y estas se mapean automáticamente a tablas en la base de datos.
+
+*Consultas usando métodos de repositorio: Puedes realizar operaciones de CRUD (Crear, Leer, Actualizar, Eliminar) utilizando métodos de repositorio, en lugar de escribir directamente SQL.
+
+*Soporte para múltiples bases de datos: Funciona con varias bases de datos, incluyendo MySQL, PostgreSQL, SQLite, SQL Server, y otros.
+Relaciones: Soporta relaciones entre entidades, como one-to-one, one-to-many, y many-to-many.
+
+*Migraciones: Permite crear y ejecutar migraciones para mantener la estructura de la base de datos sincronizada con tu código.
+
+*Validaciones: Integra validaciones automáticas basadas en decoradores.
+TypeORM es especialmente popular en aplicaciones desarrolladas con frameworks como NestJS, ya que se integra de manera natural con TypeScript y aprovecha al máximo las características del lenguaje orientado a objetos.
+
+
+
 
 
 
