@@ -70,6 +70,8 @@ Este concepto de DTO además de usarlo en controllers también lo uso en service
 
 **interfaces**: Nos ayuda a crear nuestros propios tipos de datos para ayudarle a TypeScript a resaltar el código.
 
+A LAS RUTAS SE LE LLAMAN CONTROLADORES, LAS FUNCIONES QUE EJECUTAN ESAS RUTAS QUE SON CONSULTAS A LA BASE DE DATOS SE LLAMAN SERVICIOS. 
+
 **Que es TypeORM**:
 TypeORM es un ORM(Object-Relational-Mapper)para Node.js escrito en TypeScript. Su propósito es facilitar la interacción con bases de datos relacionales desde aplicaciones escritas en JavaScript o TypeScript.
 
@@ -86,6 +88,12 @@ Relaciones: Soporta relaciones entre entidades, como one-to-one, one-to-many, y 
 
 *Validaciones: Integra validaciones automáticas basadas en decoradores.
 TypeORM es especialmente popular en aplicaciones desarrolladas con frameworks como NestJS, ya que se integra de manera natural con TypeScript y aprovecha al máximo las características del lenguaje orientado a objetos.
+
+**Entity**
+Entity vienen siendo los repositorios.
+
+El service tan solo define la comunicación con la base de datos. 
+Pero el que realmente va recibir el dato desde la aplicación cliente es el controlador. 
 
 
 
